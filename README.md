@@ -13,7 +13,7 @@
 
   - First, connect your database.
   - Give the "search-input" id to the input in the search section on your site
-  - Type "<div id="results"></div>" below
+  - Create an empty div below it and give results to the id
   - Open the Search.php file and find the section that says SELECT * FROM content WHERE title LIKE :title, replace the content statement with the name of the table you want to search. Replace title and :title with the name of the column you want to search in your table.
   - If you want to see how many results are found, put your own design in the specified div.
   - As you can see in the example where the foreach loop is located, open a different echo value for each variable and place your own design.
